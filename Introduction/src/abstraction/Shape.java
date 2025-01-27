@@ -1,32 +1,27 @@
 package abstraction;
 
 public abstract class Shape {
-    // Private data member (accessible through getter and setter methods)
+    // data members // instance var // fields // attributes // properties
     private String color;
-
-    // Protected data member (accessible in subclasses)
     protected int sides;
+    public String types;
 
-    // Public data member
-    public String type;
-
-    // Constructor to initialize the shape
-    public Shape(String color, int sides, String type) {
+    // constructor doesn't have return type
+    public Shape(String color, int sides, String types){
         this.color = color;
         this.sides = sides;
-        this.type = type;
+        this.types = types;
     }
 
-    // Getter for the private data member
-    public String getColor() {
+    // getter for private var
+    public String getColor(){
         return color;
     }
 
-    // Setter for the private data member
-    public void setColor(String color) {
+    //setter
+    public void setColor(String color){
         this.color = color;
     }
 
-    // Abstract method to be implemented by subclasses
     public abstract void calculateArea();
 }

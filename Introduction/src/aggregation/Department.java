@@ -23,6 +23,10 @@ public class Department {
             System.out.println("- " + obj.getName());
         }
 
+//        for (Teacher object : teachers){ // teacher = [John, Smith, Ram ]
+//            John // Smith // Ram
+//        }
+
     }
 
 }

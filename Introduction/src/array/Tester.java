@@ -25,6 +25,15 @@ public class Tester {
         for (int i = 0; i < arr2.length; i++){
             System.out.print(arr2[i]+ " ");
         }
+        System.out.println("for-each loop");
+        /*
+         for(datatype variable : array){
+         [body]
+            }
+        */
+        for (int i : arr2){
+            System.out.println(i);
+        }
 
     }
 }

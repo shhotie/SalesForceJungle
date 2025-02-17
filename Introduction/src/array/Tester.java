@@ -35,5 +35,15 @@ public class Tester {
             System.out.println(i);
         }
 
+        char[] ch={'j','a','v','a','t',' ','p','o','i','n','t'};
+        System.out.println("Printing char array");
+        for(char c : ch){
+            System.out.print(c);
+        }
+
+        String s = new String(ch);
+        System.out.println();
+        System.out.println("String:" + s);
+
     }
 }

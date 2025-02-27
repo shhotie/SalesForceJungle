@@ -10,6 +10,7 @@ public class ListImpll {
         list1.add(1);
         list1.add(2);
         list1.add(3);
+        list1.add(4);
         System.out.println("list1 = " + list1);
 
         // Access elements from the list
@@ -20,5 +21,15 @@ public class ListImpll {
         // Removing element
         System.out.println("Removing elemtnt =" + list1.remove(2));
         System.out.println("List after removing" + list1);
+
+        List<String> fruits = new ArrayList<>();
+        fruits.add("Apple");
+        fruits.add("Mango");
+        fruits.add("Strawberry");
+        System.out.println("List of fruits = " + fruits);
+
+        for(String obj : fruits){
+            System.out.println(obj.charAt(0));
+        }
     }
 }
